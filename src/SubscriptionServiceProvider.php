@@ -2,7 +2,6 @@
 namespace Subscription_Sdk\src;
 
 use Illuminate\Support\ServiceProvider;
-use SubscriptionSdk\Resources\Subscribe;
 use Subscription_Sdk\src\Client;
 use Subscription_Sdk\src\MainSDK;
 
