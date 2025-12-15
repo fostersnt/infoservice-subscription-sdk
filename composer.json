@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Hp\\SubscriptionSdk\\": "src/"
+      "SubscriptionSdk\\": "src/"
     }
   },
   "repository": [
@@ -29,10 +29,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Hp\\SubscriptionSdk\\Laravel\\SubscriptionSdkServiceProvider"
+        "SubscriptionSdk\\SubscriptionSdkServiceProvider"
       ],
       "aliases": {
-        "SubscriptionSdk": "Hp\\SubscriptionSdk\\Facades\\SubscriptionSdk"
+        "SubscriptionSdk": "SubscriptionSdk\\Facades\\SubscriptionSdk"
       }
     }
   }

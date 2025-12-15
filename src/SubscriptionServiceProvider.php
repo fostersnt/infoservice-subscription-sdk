@@ -12,7 +12,7 @@ class SubscriptionServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(
             __DIR__.'/../config/subscription.php',
-            'subscription-sdk'
+            'subscription'
         );
 
         $this->app->singleton(Client::class, function () {
