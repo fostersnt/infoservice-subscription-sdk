@@ -9,6 +9,6 @@ class SubscriptionFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return MainSDK::class;
+        return 'subscription-sdk';
     }
 }
