@@ -29,7 +29,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Subscription_Sdk\\src"
+        "Subscription_Sdk\\src\\SubscriptionServiceProvider"
       ],
       "aliases": {
         "SubscriptionSdk": "SubscriptionSdk\\Facades\\SubscriptionSdk"
