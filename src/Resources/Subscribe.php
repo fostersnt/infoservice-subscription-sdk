@@ -1,8 +1,8 @@
 <?php
-namespace SubscriptionSdk\Resources;
+namespace Subscription_Sdk\src\Resources;
 
-use SubscriptionSdk\Helpers\General;
-use SubscriptionSdk\src\Client;
+use Subscription_Sdk\Helpers\General;
+use Subscription_Sdk\src\Client;
 
 class Subscribe
 {

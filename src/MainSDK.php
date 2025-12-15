@@ -1,7 +1,7 @@
 <?php
-namespace SubscriptionSdk\src;
+namespace Subscription_Sdk\src;
 
-use SubscriptionSdk\Resources\Subscribe;
+use Subscription_Sdk\src\Resources\Subscribe;
 
 class MainSDK
 {

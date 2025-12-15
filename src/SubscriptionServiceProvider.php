@@ -1,10 +1,10 @@
 <?php
-namespace YourSdk;
+namespace Subscription_Sdk\src;
 
 use Illuminate\Support\ServiceProvider;
 use SubscriptionSdk\Resources\Subscribe;
-use SubscriptionSdk\src\Client;
-use SubscriptionSdk\src\MainSDK;
+use Subscription_Sdk\src\Client;
+use Subscription_Sdk\src\MainSDK;
 
 class SubscriptionServiceProvider extends ServiceProvider
 {

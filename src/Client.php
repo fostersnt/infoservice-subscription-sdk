@@ -1,8 +1,8 @@
 <?php
-namespace SubscriptionSdk\src;
+namespace Subscription_Sdk\src;
 
 use Illuminate\Support\Facades\Http;
-use SubscriptionSdk\Helpers\General;
+use Subscription_Sdk\Helpers\General;
 
 class Client
 {

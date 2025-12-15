@@ -1,5 +1,5 @@
 <?php
-namespace SubscriptionSdk\Helpers;
+namespace Subscription_Sdk\Helpers;
 
 class General {
     public static function AppSettings()
