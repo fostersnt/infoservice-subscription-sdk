@@ -1,9 +1,8 @@
 <?php
 
-namespace Subscription_Sdk\Facades;
+namespace Subscription_Sdk\src\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Subscription_Sdk\src\MainSDK;
 
 class SubscriptionFacade extends Facade
 {
