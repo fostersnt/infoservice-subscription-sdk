@@ -9,6 +9,7 @@ class SubscriptionServiceProvider extends ServiceProvider
 {
     public function register()
     {
+        //! The line below is only necessary if your package/sdk requires its own config keys
         $this->mergeConfigFrom(
             __DIR__.'/../config/subscription.php',
             'subscription'
